@@ -1,0 +1,12 @@
+LOGIC
+
+SERVER
+    -socket
+    connections
+
+SQL
+    -company data
+        -company data-saving
+    -company details
+        -public keys
+THREADING

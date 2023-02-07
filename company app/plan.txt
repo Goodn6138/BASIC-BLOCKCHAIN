@@ -1,0 +1,40 @@
+BACKEND
+    GENERATE PRIVATE-PUBLIC KEYS
+        -CHECK WHETHER KUNA KEYS KWA CURRENT FOLDER 
+                -IF NOT 
+                    
+                    -REGISTER USER
+                    -ASK FOR PASSWORD
+                    -GENERATE KEY PAIRS AND SAVE PRIVATE KEY
+                    -SEND PUBLIC KEY TO SERVER
+                
+                -KA IKO
+                    -ASK FOR PASSWORD
+                ENEDELEA NA MAISHA
+
+
+    SIGNING SOME DATA
+        DATA INPUT
+        
+            -INGISHA CSV, EXCEL, FILES
+            -LOAD IN NA PANDAS NDO IKUE DICT
+        DATA FORMATING
+        
+            -TUMIA JSON UIBADILISHE INTO BYTE STRING
+            -TENGENEZA HASH YA HIO STUFF YOTE
+            -ADD IT TO THE JSON FORMATING
+
+        DATA SIGNING
+            
+            -SIGNING THE DATA THEN ADD IT TO JSON FORMATING
+
+        DATA TRANSMISSION
+
+            -ONGEZA COMPANY NAME KWA DATA FORMAT
+            -SEND THE DATA (ITAONGEZWA KWA BLOCK)
+
+    VERIFICATION OF DATA
+            
+            -FETCH COMPANY SOURCE DATA
+            -CONFIRM SIGNATURE
+            -FANYA VITU ZAKO
